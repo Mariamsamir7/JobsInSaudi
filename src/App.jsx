@@ -41,7 +41,7 @@ const TitleUpdater = () => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/JobsInSaudi">
       <TitleUpdater />
       <Layout>
         <Routes>
