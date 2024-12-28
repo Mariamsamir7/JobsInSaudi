@@ -1,0 +1,16 @@
+.banner_section {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(110, 236, 187, 0.03125) 18%,
+    rgba(138, 208, 170, 0.3253676470588235) 100%
+  );
+}
+.nav-link-auth {
+  color: black !important;
+}
+.nav-link-auth.active {
+  color: #28a745 !important;
+  border-bottom: #28a745 1px solid;
+}

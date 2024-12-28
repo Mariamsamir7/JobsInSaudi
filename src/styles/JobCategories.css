@@ -1,0 +1,45 @@
+.category, .card{
+  cursor:pointer;
+}
+.category-img{
+  width: 55px;
+  height: 50px;
+  overflow: hidden;
+}
+.category-title{
+  font-size: 18px;
+}
+.card{
+  overflow: hidden;
+    flex: 0 0 auto;
+    height: 170px;
+    width: 170px;
+}
+.Resume-Card-img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.Resume-Card-title:hover{
+color: #28a745;
+}
+.category-card,.Resume-Card{
+  white-space: nowrap;
+  scrollbar-width:none; 
+  -ms-overflow-style: none;
+  cursor: grab; 
+}
+.category-card:active,
+.Resume-Card:active {
+  cursor: grabbing; 
+}
+
+@media (max-width: 576px) {
+.resume-btn{
+  width:100%;
+}
+.Favorites-Resumes{
+  height:auto;
+  width: 100%;
+  margin: 20px auto;
+}}

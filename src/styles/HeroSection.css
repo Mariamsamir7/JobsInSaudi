@@ -1,0 +1,14 @@
+.hero-container {
+    height: 140px; 
+  }
+  .hero-image {
+    object-fit: cover; 
+    filter: brightness(70%); 
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  .hero-image:hover {
+    filter: brightness(50%); 
+    transform: scale(1.03); 
+  }
+ 
+  

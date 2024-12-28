@@ -1,0 +1,17 @@
+
+.Download-App-icon:hover, .Download-App-icon:hover .Download-App-text{
+background-color: #28a745;
+color: white;
+}
+.footer-links{
+color: #aaa;
+}
+.footer-links:hover{
+color: #28a745;
+}
+.Download-App-text,.Download-App{
+    color:black;
+}
+.Download-App-icon {
+    background-color: #aaaaaa57;
+}
